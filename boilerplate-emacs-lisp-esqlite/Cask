@@ -1,0 +1,4 @@
+(source "melpa" "http://melpa.milkbox.net/packages/")
+
+(depends-on "cask")
+(depends-on "esqlite")
