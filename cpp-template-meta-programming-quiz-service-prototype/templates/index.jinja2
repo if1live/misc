@@ -1,0 +1,20 @@
+<html>
+    <head>
+    </head>
+    <body>
+        <h1>Q1 : Factorial</h1>
+        <p>다음 코드가 컴파일되도록 위의 내용을 채워넣으시오</p>
+
+        <form action="/submit" method="post">
+            <p>{{ quiz_code|replace('\n', '<br/>') }}</p>
+            <textarea name="code" rows="10">
+template<int N>
+struct factorial {
+  enum { value = 0 };
+};
+            </textarea>
+            <br/>
+            <button>Submit</button>
+        </form>
+    </body>
+</html>

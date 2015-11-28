@@ -1,0 +1,16 @@
+<html>
+    <head>
+    </head>
+    <body>
+        <h1>Q1 : Factorial Result</h1>
+        <h2>Compile Result : {{ success }}</h2>
+        <p>
+            {{ stderr_list|join('<br/>')|replace(' ', '&nbsp;') }}
+        </p>
+        <h2>Code</h2>
+        <p>
+            {{ fullcode|replace('\n', '<br/>') }}
+        </p>
+        <a href="/">문제로 되돌아가기</a>
+    </body>
+</html>

@@ -190,3 +190,7 @@ FakesAssemblies/
 .cask
 
 a.out
+
+.DS_Store
+.venv
+*.o
