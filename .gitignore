@@ -188,3 +188,5 @@ FakesAssemblies/
 
 # emacs
 .cask
+
+a.out
